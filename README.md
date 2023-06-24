@@ -47,25 +47,25 @@ Transform: Compose( <br />
 <h2>PARAMETERS FOR BATCH NORMALIZARTION ARCHITECTURE</h2>
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/batch_norm_param.jpg" alt="alt text" width="600px">
 
-<h4>TRAIN ACCURACY:  72.792 TRAIN LOSS:  0.8170133829116821 </h4>
-<h4> TEST ACCURACY:  74.02 TEST LOSS:  0.7378784431934357  </h4>
+<h4>TRAIN ACCURACY:  72.792 TRAIN LOSS:  0.81 </h4>
+<h4> TEST ACCURACY:  74.02 TEST LOSS:  0.74  </h4>
 
-<h3>Following are the loss and accuracies of train and test for batch  normalization:</h3>
+<h4>Following are the loss and accuracies of train and test for batch  normalization:</h4>
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/batch_norm.jpg" alt="alt text" width="600px">
 
 ---------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------
 
-**PARAMETERS FOR BATCH Group Normalization ARCHITECTURE** <br />
+<h2>PARAMETERS FOR Group NORMALIZARTION ARCHITECTURE</h2>
 
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/group_norm_param.jpg" alt="alt text" width="600px">
 
-** TRAIN ACCURACY:  71.612 TRAIN LOSS:  0.4181869626045227 ** <br />
-** TEST ACCURACY:  71.23 TEST LOSS:  0.8142993453979492 ** <br />
+ <h4>TRAIN ACCURACY:  71.612 TRAIN LOSS:  0.42 </h4>
+ <h4>TEST ACCURACY:  71.23 TEST LOSS:  0.81 </h4>
 
 
-Following are the sample imagese of the test dataset:
+<h4>Following are the loss and accuracies of train and test for goup normalization:</h4>
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/group_norm.jpg" alt="alt text" width="600px">
 
 ---------------------------------------------------------------------------------------------------------------------------

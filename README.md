@@ -47,10 +47,10 @@ Transform: Compose( <br />
 <h2>PARAMETERS FOR BATCH NORMALIZARTION ARCHITECTURE</h2>
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/batch_norm_param.jpg" alt="alt text" width="600px">
 
-<h3>TRAIN ACCURACY:  72.792 TRAIN LOSS:  0.8170133829116821 </h3>
-<h3> TEST ACCURACY:  74.02 TEST LOSS:  0.7378784431934357  </h3>
+<h4>TRAIN ACCURACY:  72.792 TRAIN LOSS:  0.8170133829116821 </h4>
+<h4> TEST ACCURACY:  74.02 TEST LOSS:  0.7378784431934357  </h4>
 
-<h3>Following are the loss:</h3>
+<h3>Following are the loss and accuracies of train and test for batch  normalization:</h3>
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/batch_norm.jpg" alt="alt text" width="600px">
 
 ---------------------------------------------------------------------------------------------------------------------------

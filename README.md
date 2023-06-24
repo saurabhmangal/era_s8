@@ -1,4 +1,4 @@
-**This is the submission for assigment number 8 of ERA V1 course.**
+<h1> **This is the submission for assigment number 8 of ERA V1 course.**</h1>
 
 **Problem Statement** <br/>
 The Task given was to use CIFAR 10 data and get the convolutional network with atleast 70% accuracy. 

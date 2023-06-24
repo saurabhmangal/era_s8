@@ -1,6 +1,6 @@
 **This is the submission for assigment number 8 of ERA V1 course.**
 
-**Problem Statement**
+**Problem Statement** <br/>
 The Task given was to use CIFAR 10 data and get the convolutional network with atleast 70% accuracy. 
 
 The number of parameters had to be less than 50,000 parameters. 
@@ -50,43 +50,43 @@ Following are the sample imagese of the test dataset:
 **PARAMETERS FOR BATCH NORMALIZARTION ARCHITECTURE**
 
 ---------------------------------------------------------------- <br />
-|       Layer (type)     |&nbsp;          Output Shape   &nbsp;     Param # <br />
+|       Layer (type)     |&nbsp;&nbsp;          Output Shape   |&nbsp;&nbsp;     Param # <br />
         
 ================================================================== <br />
-|            Conv2d-1     |&nbsp;      [-1, 48, 32, 32]           1,344 <br />
-|              ReLU-2     |&nbsp;      [-1, 48, 32, 32]               0 <br />
-|       BatchNorm2d-3     |&nbsp;      [-1, 48, 32, 32]              96 <br />
-|         Dropout2d-4     |&nbsp;      [-1, 48, 32, 32]               0 <br />
-|            Conv2d-5     |&nbsp;      [-1, 48, 32, 32]          20,784 <br />
-|              ReLU-6     |&nbsp;      [-1, 48, 32, 32]               0 <br />
-|       BatchNorm2d-7     |&nbsp;      [-1, 48, 32, 32]              96 <br />
-|         Dropout2d-8     |&nbsp;      [-1, 48, 32, 32]               0 <br />
-|            Conv2d-9     |&nbsp;      [-1, 32, 32, 32]           1,568 <br />
-|        MaxPool2d-10     |&nbsp;      [-1, 32, 16, 16]               0 <br />
-|           Conv2d-11     |&nbsp;      [-1, 32, 16, 16]           9,248 <br />
-|             ReLU-12     |&nbsp;      [-1, 32, 16, 16]               0 <br />
-|      BatchNorm2d-13     |&nbsp;      [-1, 32, 16, 16]              64 <br />
-|        Dropout2d-14     |&nbsp;      [-1, 32, 16, 16]               0 <br />
-|           Conv2d-15     |&nbsp;      [-1, 32, 16, 16]           9,248 <br />
-|             ReLU-16     |&nbsp;      [-1, 32, 16, 16]               0 <br />
-|      BatchNorm2d-17     |&nbsp;      [-1, 32, 16, 16]              64 <br />
-|        Dropout2d-18     |&nbsp;      [-1, 32, 16, 16]               0 <br />
-|           Conv2d-19     |&nbsp;      [-1, 32, 16, 16]           1,056 <br />
-|        MaxPool2d-20     |&nbsp;        [-1, 32, 8, 8]               0 <br />
-|           Conv2d-21     |&nbsp;        [-1, 16, 8, 8]           4,624 <br />
-|             ReLU-22     |&nbsp;        [-1, 16, 8, 8]               0 <br />
-|      BatchNorm2d-23     |&nbsp;        [-1, 16, 8, 8]              32 <br />
-|        Dropout2d-24     |&nbsp;        [-1, 16, 8, 8]               0 <br />
-|           Conv2d-25     |&nbsp;         [-1, 8, 8, 8]           1,160 <br />
-|             ReLU-26     |&nbsp;         [-1, 8, 8, 8]               0 <br />
-|      BatchNorm2d-27     |&nbsp;         [-1, 8, 8, 8]              16 <br />
-|        Dropout2d-28     |&nbsp;         [-1, 8, 8, 8]               0 <br />
-|           Conv2d-29     |&nbsp;        [-1, 10, 8, 8]             730 <br />
-|             ReLU-30     |&nbsp;        [-1, 10, 8, 8]               0 <br />
-|      BatchNorm2d-31     |&nbsp;        [-1, 10, 8, 8]              20 <br />
-|        Dropout2d-32     |&nbsp;        [-1, 10, 8, 8]               0 <br />
-|AdaptiveAvgPool2d-33     |&nbsp;        [-1, 10, 1, 1]               0 <br />
-|           Conv2d-34     |&nbsp;        [-1, 10, 1, 1]             110 <br />
+|            Conv2d-1     |&nbsp;&nbsp;      [-1, 48, 32, 32]  |&nbsp;&nbsp;         1,344 <br />
+|              ReLU-2     |&nbsp;&nbsp;      [-1, 48, 32, 32]  |&nbsp;&nbsp;             0 <br />
+|       BatchNorm2d-3     |&nbsp;&nbsp;      [-1, 48, 32, 32]  |&nbsp;&nbsp;            96 <br />
+|         Dropout2d-4     |&nbsp;&nbsp;      [-1, 48, 32, 32]  |&nbsp;&nbsp;             0 <br />
+|            Conv2d-5     |&nbsp;&nbsp;      [-1, 48, 32, 32]  |&nbsp;&nbsp;        20,784 <br />
+|              ReLU-6     |&nbsp;&nbsp;      [-1, 48, 32, 32]  |&nbsp;&nbsp;             0 <br />
+|       BatchNorm2d-7     |&nbsp;&nbsp;      [-1, 48, 32, 32]  |&nbsp;&nbsp;            96 <br />
+|         Dropout2d-8     |&nbsp;&nbsp;      [-1, 48, 32, 32]  |&nbsp;&nbsp;             0 <br />
+|            Conv2d-9     |&nbsp;&nbsp;      [-1, 32, 32, 32]  |&nbsp;&nbsp;         1,568 <br />
+|        MaxPool2d-10     |&nbsp;&nbsp;      [-1, 32, 16, 16]  |&nbsp;&nbsp;             0 <br />
+|           Conv2d-11     |&nbsp;&nbsp;      [-1, 32, 16, 16]  |&nbsp;&nbsp;         9,248 <br />
+|             ReLU-12     |&nbsp;&nbsp;      [-1, 32, 16, 16]  |&nbsp;&nbsp;             0 <br />
+|      BatchNorm2d-13     |&nbsp;&nbsp;      [-1, 32, 16, 16]  |&nbsp;&nbsp;            64 <br />
+|        Dropout2d-14     |&nbsp;&nbsp;      [-1, 32, 16, 16]  |&nbsp;&nbsp;             0 <br />
+|           Conv2d-15     |&nbsp;&nbsp;      [-1, 32, 16, 16]  |&nbsp;&nbsp;         9,248 <br />
+|             ReLU-16     |&nbsp;&nbsp;      [-1, 32, 16, 16]  |&nbsp;&nbsp;             0 <br />
+|      BatchNorm2d-17     |&nbsp;&nbsp;      [-1, 32, 16, 16]  |&nbsp;&nbsp;            64 <br />
+|        Dropout2d-18     |&nbsp;&nbsp;      [-1, 32, 16, 16]  |&nbsp;&nbsp;             0 <br />
+|           Conv2d-19     |&nbsp;&nbsp;      [-1, 32, 16, 16]  |&nbsp;&nbsp;         1,056 <br />
+|        MaxPool2d-20     |&nbsp;&nbsp;        [-1, 32, 8, 8]  |&nbsp;&nbsp;             0 <br />
+|           Conv2d-21     |&nbsp;&nbsp;        [-1, 16, 8, 8]  |&nbsp;&nbsp;         4,624 <br />
+|             ReLU-22     |&nbsp;&nbsp;        [-1, 16, 8, 8]  |&nbsp;&nbsp;             0 <br />
+|      BatchNorm2d-23     |&nbsp;&nbsp;        [-1, 16, 8, 8]  |&nbsp;&nbsp;            32 <br />
+|        Dropout2d-24     |&nbsp;&nbsp;        [-1, 16, 8, 8]  |&nbsp;&nbsp;             0 <br />
+|           Conv2d-25     |&nbsp;&nbsp;         [-1, 8, 8, 8]  |&nbsp;&nbsp;         1,160 <br />
+|             ReLU-26     |&nbsp;&nbsp;         [-1, 8, 8, 8]  |&nbsp;&nbsp;             0 <br />
+|      BatchNorm2d-27     |&nbsp;&nbsp;         [-1, 8, 8, 8]  |&nbsp;&nbsp;            16 <br />
+|        Dropout2d-28     |&nbsp;&nbsp;         [-1, 8, 8, 8]  |&nbsp;&nbsp;             0 <br />
+|           Conv2d-29     |&nbsp;&nbsp;        [-1, 10, 8, 8]  |&nbsp;&nbsp;           730 <br />
+|             ReLU-30     |&nbsp;&nbsp;        [-1, 10, 8, 8]  |&nbsp;&nbsp;             0 <br />
+|      BatchNorm2d-31     |&nbsp;&nbsp;        [-1, 10, 8, 8]  |&nbsp;&nbsp;            20 <br />
+|        Dropout2d-32     |&nbsp;&nbsp;        [-1, 10, 8, 8]  |&nbsp;&nbsp;             0 <br />
+|AdaptiveAvgPool2d-33     |&nbsp;&nbsp;        [-1, 10, 1, 1]  |&nbsp;&nbsp;             0 <br />
+|           Conv2d-34     |&nbsp;&nbsp;        [-1, 10, 1, 1]  |&nbsp;&nbsp;           110 <br />
 
 
 ================================================================ <br />
@@ -116,43 +116,43 @@ Following are the sample images of the test dataset:
 **PARAMETERS FOR BATCH Group Normalization ARCHITECTURE** <br />
 
 ---------------------------------------------------------------- <br />
-        Layer (type)               Output Shape         Param # <br />
+        Layer (type)    |&nbsp;&nbsp;           Output Shape   |&nbsp;&nbsp;      Param # <br />
         
 ================================================================ <br />
-            Conv2d-1           [-1, 48, 32, 32]           1,344 <br />
-              ReLU-2           [-1, 48, 32, 32]               0 <br />
-         GroupNorm-3           [-1, 48, 32, 32]              96 <br />
-         Dropout2d-4           [-1, 48, 32, 32]               0 <br />
-            Conv2d-5           [-1, 48, 32, 32]          20,784 <br />
-              ReLU-6           [-1, 48, 32, 32]               0 <br />
-         GroupNorm-7           [-1, 48, 32, 32]              96 <br />
-         Dropout2d-8           [-1, 48, 32, 32]               0 <br />
-            Conv2d-9           [-1, 32, 32, 32]           1,568 <br />
-        MaxPool2d-10           [-1, 32, 16, 16]               0 <br />
-           Conv2d-11           [-1, 32, 16, 16]           9,248 <br />
-             ReLU-12           [-1, 32, 16, 16]               0 <br />
-        GroupNorm-13           [-1, 32, 16, 16]              64 <br />
-        Dropout2d-14           [-1, 32, 16, 16]               0 <br />
-           Conv2d-15           [-1, 32, 16, 16]           9,248 <br />
-             ReLU-16           [-1, 32, 16, 16]               0 <br />
-        GroupNorm-17           [-1, 32, 16, 16]              64 <br />
-        Dropout2d-18           [-1, 32, 16, 16]               0 <br />
-           Conv2d-19           [-1, 32, 16, 16]           1,056 <br />
-        MaxPool2d-20             [-1, 32, 8, 8]               0 <br />
-           Conv2d-21             [-1, 16, 8, 8]           4,624 <br />
-             ReLU-22             [-1, 16, 8, 8]               0 <br />
-        GroupNorm-23             [-1, 16, 8, 8]              32 <br />
-        Dropout2d-24             [-1, 16, 8, 8]               0 <br />
-           Conv2d-25              [-1, 8, 8, 8]           1,160 <br />
-             ReLU-26              [-1, 8, 8, 8]               0 <br />
-        GroupNorm-27              [-1, 8, 8, 8]              16 <br />
-        Dropout2d-28              [-1, 8, 8, 8]               0 <br />
-           Conv2d-29             [-1, 10, 8, 8]             730 <br />
-             ReLU-30             [-1, 10, 8, 8]               0 <br />
-        GroupNorm-31             [-1, 10, 8, 8]              20 <br />
-        Dropout2d-32             [-1, 10, 8, 8]               0 <br />
-AdaptiveAvgPool2d-33             [-1, 10, 1, 1]               0 <br />
-           Conv2d-34             [-1, 10, 1, 1]             110 <br />
+            Conv2d-1    |&nbsp;&nbsp;       [-1, 48, 32, 32]   |&nbsp;&nbsp;        1,344 <br />
+              ReLU-2    |&nbsp;&nbsp;       [-1, 48, 32, 32]   |&nbsp;&nbsp;            0 <br />
+         GroupNorm-3    |&nbsp;&nbsp;       [-1, 48, 32, 32]   |&nbsp;&nbsp;           96 <br />
+         Dropout2d-4    |&nbsp;&nbsp;       [-1, 48, 32, 32]   |&nbsp;&nbsp;            0 <br />
+            Conv2d-5    |&nbsp;&nbsp;       [-1, 48, 32, 32]   |&nbsp;&nbsp;       20,784 <br />
+              ReLU-6    |&nbsp;&nbsp;       [-1, 48, 32, 32]   |&nbsp;&nbsp;            0 <br />
+         GroupNorm-7    |&nbsp;&nbsp;       [-1, 48, 32, 32]   |&nbsp;&nbsp;           96 <br />
+         Dropout2d-8    |&nbsp;&nbsp;       [-1, 48, 32, 32]   |&nbsp;&nbsp;            0 <br />
+            Conv2d-9    |&nbsp;&nbsp;       [-1, 32, 32, 32]   |&nbsp;&nbsp;        1,568 <br />
+        MaxPool2d-10    |&nbsp;&nbsp;       [-1, 32, 16, 16]   |&nbsp;&nbsp;            0 <br />
+           Conv2d-11    |&nbsp;&nbsp;       [-1, 32, 16, 16]   |&nbsp;&nbsp;        9,248 <br />
+             ReLU-12    |&nbsp;&nbsp;       [-1, 32, 16, 16]   |&nbsp;&nbsp;            0 <br />
+        GroupNorm-13    |&nbsp;&nbsp;       [-1, 32, 16, 16]   |&nbsp;&nbsp;           64 <br />
+        Dropout2d-14    |&nbsp;&nbsp;       [-1, 32, 16, 16]   |&nbsp;&nbsp;            0 <br />
+           Conv2d-15    |&nbsp;&nbsp;       [-1, 32, 16, 16]   |&nbsp;&nbsp;        9,248 <br />
+             ReLU-16    |&nbsp;&nbsp;       [-1, 32, 16, 16]   |&nbsp;&nbsp;            0 <br />
+        GroupNorm-17    |&nbsp;&nbsp;       [-1, 32, 16, 16]   |&nbsp;&nbsp;           64 <br />
+        Dropout2d-18    |&nbsp;&nbsp;       [-1, 32, 16, 16]   |&nbsp;&nbsp;            0 <br />
+           Conv2d-19    |&nbsp;&nbsp;       [-1, 32, 16, 16]   |&nbsp;&nbsp;       1,056 <br />
+        MaxPool2d-20    |&nbsp;&nbsp;         [-1, 32, 8, 8]   |&nbsp;&nbsp;            0 <br />
+           Conv2d-21    |&nbsp;&nbsp;         [-1, 16, 8, 8]   |&nbsp;&nbsp;        4,624 <br />
+             ReLU-22    |&nbsp;&nbsp;         [-1, 16, 8, 8]   |&nbsp;&nbsp;            0 <br />
+        GroupNorm-23    |&nbsp;&nbsp;         [-1, 16, 8, 8]   |&nbsp;&nbsp;           32 <br />
+        Dropout2d-24    |&nbsp;&nbsp;         [-1, 16, 8, 8]   |&nbsp;&nbsp;            0 <br />
+           Conv2d-25    |&nbsp;&nbsp;          [-1, 8, 8, 8]   |&nbsp;&nbsp;        1,160 <br />
+             ReLU-26    |&nbsp;&nbsp;          [-1, 8, 8, 8]   |&nbsp;&nbsp;            0 <br />
+        GroupNorm-27    |&nbsp;&nbsp;          [-1, 8, 8, 8]   |&nbsp;&nbsp;           16 <br />
+        Dropout2d-28    |&nbsp;&nbsp;          [-1, 8, 8, 8]   |&nbsp;&nbsp;            0 <br />
+           Conv2d-29    |&nbsp;&nbsp;         [-1, 10, 8, 8]   |&nbsp;&nbsp;          730 <br />
+             ReLU-30    |&nbsp;&nbsp;         [-1, 10, 8, 8]   |&nbsp;&nbsp;            0 <br />
+        GroupNorm-31    |&nbsp;&nbsp;         [-1, 10, 8, 8]   |&nbsp;&nbsp;           20 <br />
+        Dropout2d-32    |&nbsp;&nbsp;         [-1, 10, 8, 8]   |&nbsp;&nbsp;            0 <br />
+AdaptiveAvgPool2d-33    |&nbsp;&nbsp;         [-1, 10, 1, 1]   |&nbsp;&nbsp;           0 <br />
+           Conv2d-34    |&nbsp;&nbsp;         [-1, 10, 1, 1]   |&nbsp;&nbsp;          110 <br />
            
 ================================================================ <br />
 Total params: 50,260 <br />

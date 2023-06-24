@@ -44,14 +44,13 @@ Transform: Compose( <br />
 <h2>Following are the sample images of the test dataset:</h2>
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/test_dataset.jpg" alt="alt text" width="600px">
 
-
 <h2>PARAMETERS FOR BATCH NORMALIZARTION ARCHITECTURE</h2>
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/batch_norm_param.jpg" alt="alt text" width="600px">
 
-** TRAIN ACCURACY:  72.792 TRAIN LOSS:  0.8170133829116821 ** <br />
-** TEST ACCURACY:  74.02 TEST LOSS:  0.7378784431934357  ** <br />
+<h3>TRAIN ACCURACY:  72.792 TRAIN LOSS:  0.8170133829116821 </h3>
+<h3> TEST ACCURACY:  74.02 TEST LOSS:  0.7378784431934357  </h3>
 
-Following are the sample images of the test dataset:
+<h3>Following are the loss:</h3>
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/batch_norm.jpg" alt="alt text" width="600px">
 
 ---------------------------------------------------------------------------------------------------------------------------

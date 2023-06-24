@@ -15,7 +15,7 @@ model.py - has different classes for batch normalization, group normalization an
      Net_s6 <br />
      Net_s7 <br />
 
-<h2>The description of the data is as follows:</h2>h2>
+<h2>The description of the data is as follows:</h2>
 
 Dataset CIFAR10
     Number of datapoints: 50000 <br />
@@ -38,16 +38,14 @@ Transform: Compose( <br />
                Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]) <br />
            ) <br />
 
-Following are the sample images of train dataset:
+<h2>Following are the sample images of train dataset:</h2>
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/train_dataset.jpg" alt="alt text" width="600px">
 
-Following are the sample imagese of the test dataset:
+<h2>Following are the sample images of the test dataset:</h2>
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/test_dataset.jpg" alt="alt text" width="600px">
 
 
-
-
-**PARAMETERS FOR BATCH NORMALIZARTION ARCHITECTURE**
+<h2>PARAMETERS FOR BATCH NORMALIZARTION ARCHITECTURE</h2>
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/batch_norm_param.jpg" alt="alt text" width="600px">
 
 ** TRAIN ACCURACY:  72.792 TRAIN LOSS:  0.8170133829116821 ** <br />

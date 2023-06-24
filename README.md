@@ -1,13 +1,13 @@
-<h1> **This is the submission for assigment number 8 of ERA V1 course.**</h1>
+<h1> This is the submission for assigment number 8 of ERA V1 course.</h1>
 
-**Problem Statement** <br/>
+<h2>Problem Statement</h2>
 The Task given was to use CIFAR 10 data and get the convolutional network with atleast 70% accuracy. 
 
 The number of parameters had to be less than 50,000 parameters. 
 
 It was also asked to use Batch Normalization, Group Normalization and Layer Normalization and observe the results. 
 
-**File Structure** <br />
+<h2>File Structure</h2>
 model.py - has different classes for batch normalization, group normalization and layer normalization. Also as asked, I have also provided the networks used for Assignment 6 and 7. The names are as follows: <br />
      Net_batch_normalization <br />
      Net_group_norm <br />
@@ -15,7 +15,7 @@ model.py - has different classes for batch normalization, group normalization an
      Net_s6 <br />
      Net_s7 <br />
 
-The description of the data is as follows:
+<h2>The description of the data is as follows:</h2>h2>
 
 Dataset CIFAR10
     Number of datapoints: 50000 <br />

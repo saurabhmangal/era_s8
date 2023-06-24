@@ -50,7 +50,7 @@ Following are the sample imagese of the test dataset:
 **PARAMETERS FOR BATCH NORMALIZARTION ARCHITECTURE**
 
 ---------------------------------------------------------------- <br />
-        Layer (type)               Output Shape         Param # <br />
+        Layer (type)     <t />          Output Shape    <t />     Param # <br />
         
 ================================================================ <br />
             Conv2d-1           [-1, 48, 32, 32]           1,344 <br />

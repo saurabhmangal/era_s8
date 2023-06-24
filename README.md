@@ -18,25 +18,25 @@ model.py - has different classes for batch normalization, group normalization an
 The description of the data is as follows:
 
 Dataset CIFAR10
-    Number of datapoints: 50000
-    Root location: ./data
-    Split: Train
-    StandardTransform
-Transform: Compose(
-               RandomAutocontrast(p=0.1)
-               RandomRotation(degrees=[-7.0, 7.0], interpolation=nearest, expand=False, fill=1)
-               ToTensor()
-               Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
-           )
-Dataset CIFAR10
-    Number of datapoints: 10000
-    Root location: ./data
-    Split: Test
-    StandardTransform
-Transform: Compose(
-               ToTensor()
-               Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
-           )
+    Number of datapoints: 50000 <br />
+    Root location: ./data <br />
+    Split: Train <br />
+    StandardTransform <br />
+Transform: Compose( <br />
+               RandomAutocontrast(p=0.1) <br />
+               RandomRotation(degrees=[-7.0, 7.0], interpolation=nearest, expand=False, fill=1) <br />
+               ToTensor() <br />
+               Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]) <br />
+           ) <br />
+Dataset CIFAR10 <br />
+    Number of datapoints: 10000 <br />
+    Root location: ./data <br />
+    Split: Test <br />
+    StandardTransform <br />
+Transform: Compose( <br />
+               ToTensor() <br />
+               Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]) <br />
+           ) <br />
 
 Following are the sample images of train dataset:
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/train_dataset.jpg" alt="alt text" width="600px">
@@ -49,10 +49,10 @@ Following are the sample imagese of the test dataset:
 
 **PARAMETERS FOR BATCH NORMALIZARTION ARCHITECTURE**
 
-----------------------------------------------------------------
+---------------------------------------------------------------- <br />
         Layer (type)               Output Shape         Param # <br />
         
-================================================================
+================================================================ <br />
             Conv2d-1           [-1, 48, 32, 32]           1,344 <br />
               ReLU-2           [-1, 48, 32, 32]               0 <br />
        BatchNorm2d-3           [-1, 48, 32, 32]              96 <br />
@@ -89,22 +89,22 @@ AdaptiveAvgPool2d-33             [-1, 10, 1, 1]               0 <br />
            Conv2d-34             [-1, 10, 1, 1]             110 <br />
 
 
-================================================================
-Total params: 50,260
-Trainable params: 50,260
-Non-trainable params: 0
+================================================================ <br />
+Total params: 50,260 <br />
+Trainable params: 50,260 <br />
+Non-trainable params: 0 <br />
 
-----------------------------------------------------------------
-Input size (MB): 0.01
-Forward/backward pass size (MB): 3.96
-Params size (MB): 0.19
-Estimated Total Size (MB): 4.16
+---------------------------------------------------------------- <br />
+Input size (MB): 0.01 <br />
+Forward/backward pass size (MB): 3.96 <br />
+Params size (MB): 0.19 <br />
+Estimated Total Size (MB): 4.16 <br />
 
-----------------------------------------------------------------
+---------------------------------------------------------------- <br />
 
 
-** TRAIN ACCURACY:  72.792 TRAIN LOSS:  0.8170133829116821 **
-** TEST ACCURACY:  74.02 TEST LOSS:  0.7378784431934357  **
+** TRAIN ACCURACY:  72.792 TRAIN LOSS:  0.8170133829116821 ** <br />
+** TEST ACCURACY:  74.02 TEST LOSS:  0.7378784431934357  ** <br />
 
 Following are the sample images of the test dataset:
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/batch_norm.jpg" alt="alt text" width="600px">
@@ -113,12 +113,12 @@ Following are the sample images of the test dataset:
 ---------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------
 
-**PARAMETERS FOR BATCH Group Normalization ARCHITECTURE**
+**PARAMETERS FOR BATCH Group Normalization ARCHITECTURE** <br />
 
-----------------------------------------------------------------
+---------------------------------------------------------------- <br />
         Layer (type)               Output Shape         Param # <br />
         
-================================================================
+================================================================ <br />
             Conv2d-1           [-1, 48, 32, 32]           1,344 <br />
               ReLU-2           [-1, 48, 32, 32]               0 <br />
          GroupNorm-3           [-1, 48, 32, 32]              96 <br />
@@ -154,21 +154,21 @@ Following are the sample images of the test dataset:
 AdaptiveAvgPool2d-33             [-1, 10, 1, 1]               0 <br />
            Conv2d-34             [-1, 10, 1, 1]             110 <br />
            
-================================================================
-Total params: 50,260
-Trainable params: 50,260
-Non-trainable params: 0
+================================================================ <br />
+Total params: 50,260 <br />
+Trainable params: 50,260 <br />
+Non-trainable params: 0 <br />
 
-----------------------------------------------------------------
-Input size (MB): 0.01
-Forward/backward pass size (MB): 3.96
-Params size (MB): 0.19
+---------------------------------------------------------------- <br />
+Input size (MB): 0.01 <br />
+Forward/backward pass size (MB): 3.96 <br />
+Params size (MB): 0.19 <br />
 Estimated Total Size (MB): 4.16
 
-----------------------------------------------------------------
+---------------------------------------------------------------- <br />
 
-** TRAIN ACCURACY:  71.612 TRAIN LOSS:  0.4181869626045227 **
-** TEST ACCURACY:  71.23 TEST LOSS:  0.8142993453979492 **
+** TRAIN ACCURACY:  71.612 TRAIN LOSS:  0.4181869626045227 ** <br />
+** TEST ACCURACY:  71.23 TEST LOSS:  0.8142993453979492 ** <br />
 
 
 Following are the sample imagese of the test dataset:
@@ -183,10 +183,10 @@ Following are the sample imagese of the test dataset:
 
 **PARAMETERS FOR LAYER NORMALIZARTION ARCHITECTURE**
 
-----------------------------------------------------------------
+---------------------------------------------------------------- <br />
         Layer (type)               Output Shape         Param # <br />
         
-================================================================
+================================================================ <br />
             Conv2d-1           [-1, 10, 32, 32]             280 <br />
               ReLU-2           [-1, 10, 32, 32]               0 <br />
          LayerNorm-3           [-1, 10, 32, 32]          20,480 <br />
@@ -218,18 +218,18 @@ Following are the sample imagese of the test dataset:
 AdaptiveAvgPool2d-29             [-1, 10, 1, 1]               0 <br />
            Conv2d-30             [-1, 10, 1, 1]             110 <br />
            
-================================================================
-Total params: 48,164
-Trainable params: 48,164
-Non-trainable params: 0
+================================================================ <br />
+Total params: 48,164 <br />
+Trainable params: 48,164 <br />
+Non-trainable params: 0 <br />
 
-----------------------------------------------------------------
-Input size (MB): 0.01
-Forward/backward pass size (MB): 0.86
-Params size (MB): 0.18
-Estimated Total Size (MB): 1.06
+---------------------------------------------------------------- <br />
+Input size (MB): 0.01 <br />
+Forward/backward pass size (MB): 0.86 <br />
+Params size (MB): 0.18 <br />
+Estimated Total Size (MB): 1.06 <br />
 
-----------------------------------------------------------------
+---------------------------------------------------------------- <br />
 
 
 ** TRAIN ACCURACY:  53.694 TRAIN LOSS:  1.3298343420028687 **

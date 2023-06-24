@@ -51,9 +51,10 @@ Following are the sample imagese of the test dataset:
 
 ---------------------------------------------------------------- <br />
 |       Layer (type)     |&nbsp;&nbsp;          Output Shape   |&nbsp;&nbsp;     Param # <br />
-        
+|------------------------|-------------------------------------|---------------------------| <br />        
 ================================================================== <br />
 |            Conv2d-1     |&nbsp;&nbsp;      [-1, 48, 32, 32]  |&nbsp;&nbsp;         1,344 <br />
+
 |              ReLU-2     |&nbsp;&nbsp;      [-1, 48, 32, 32]  |&nbsp;&nbsp;             0 <br />
 |       BatchNorm2d-3     |&nbsp;&nbsp;      [-1, 48, 32, 32]  |&nbsp;&nbsp;            96 <br />
 |         Dropout2d-4     |&nbsp;&nbsp;      [-1, 48, 32, 32]  |&nbsp;&nbsp;             0 <br />

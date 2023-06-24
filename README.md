@@ -57,29 +57,28 @@ Transform: Compose( <br />
 ---------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------
 
-<h2>PARAMETERS FOR Group NORMALIZARTION ARCHITECTURE</h2>
+<h2>PARAMETERS FOR GROUP NORMALIZARTION ARCHITECTURE</h2>
 
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/group_norm_param.jpg" alt="alt text" width="600px">
 
- <h4>TRAIN ACCURACY:  71.612 TRAIN LOSS:  0.42 </h4>
+ <h4>TRAIN ACCURACY:  71.6 TRAIN LOSS:  0.42 </h4>
  <h4>TEST ACCURACY:  71.23 TEST LOSS:  0.81 </h4>
 
 
-<h4>Following are the loss and accuracies of train and test for goup normalization:</h4>
+<h4>Following are the loss and accuracies of train and test for group normalization:</h4>
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/group_norm.jpg" alt="alt text" width="600px">
 
 ---------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------
 
-
-**PARAMETERS FOR LAYER NORMALIZARTION ARCHITECTURE**
+<h2>PARAMETERS FOR LAYER NORMALIZARTION ARCHITECTURE</h2>
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/layer_norm_param.jpg" alt="alt text" width="600px">
 
-** TRAIN ACCURACY:  53.694 TRAIN LOSS:  1.3298343420028687 **
-** TEST ACCURACY:  55.56 TEST LOSS:  1.2183823497772217   **
+<h4>TRAIN ACCURACY:  53.7  TRAIN LOSS:  1.33</h4>
+<h4>TEST ACCURACY :  55.6  TEST LOSS:  1.23</h4>
 
-Following are the sample imagese of the test dataset:
+<h4>Following are the loss and accuracies of train and test for layer normalization:</h4>
 <img src="https://github.com/saurabhmangal/era_s8/blob/master/group_norm.jpg" alt="alt text" width="600px">
 
 ---------------------------------------------------------------------------------------------------------------------------

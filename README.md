@@ -55,7 +55,7 @@ Transform: Compose( <br />
 
 
 <h4>Following are thee 10 images with miss classification. Here p--> predicted and a--> actual:</h4>
-<img src="https://github.com/saurabhmangal/era_s8/blob/master/mis_classified_image.jpg" alt="alt text" width="600px">
+<img src="https://github.com/saurabhmangal/era_s8/blob/master/mis_classified_image.jpg" alt="alt text">
 ---------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------
 
